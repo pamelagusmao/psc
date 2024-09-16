@@ -1,19 +1,4 @@
-import java.util.Scanner;
 public class OlaMundo {
  public static void main (String args[]){
-  Scanner teclado = new Scanner (System.in);
-   int num1, num2, result;
-   System.out.println ("Informe o primeiro número: " );
-   num1 = teclado.nextInt ();
-   System.out.println ("Informe o segundo número: " );
-   num2 = teclado.nextInt ();
-   System.out.println ("Soma: "+ ( num1 + num2 ));
-   
-   result= num1 + num2;
-
-   System.out.println ( " Resultado:" + result);
-
-   System.exit(0);
-
-     }
+   System.out.println ("Olá, Mundo!!!:D");}
 }
