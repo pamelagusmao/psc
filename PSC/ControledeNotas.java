@@ -1,7 +1,8 @@
 import java.util.Scanner;
   public class ControledeNotas{
     public static void main(String[]Args){
-        try (Scanner input = new Scanner (System.in)) {
+       Scanner input = new Scanner (System.in);
+        {
             int alunoNotaMaior90=0;
             int alunoReprovado=0;
             int totalAlunos=0;
